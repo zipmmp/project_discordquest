@@ -1,0 +1,72 @@
+{
+    "langConfig": {
+        "name": "English",
+        "flag": "🇺🇸",
+        "short": "en"
+    },
+    "commands": {
+        "ping": {
+            "description": "Check bot latency",
+            "response": "🏓 Pong! Latency: **{latency}ms** | API: **{apiLatency}ms**"
+        },
+        "help": {
+            "description": "Show list of commands",
+            "response": "Available commands:\n{commands}"
+        }
+    },
+    "errors": {
+        "permission": "❌ You don't have permission to use this command!",
+        "cooldown": "⏳ Please wait **{time}** before using this command again.",
+        "commandDisabled": "🔒 This command is currently disabled.",
+        "guildOnly": "🏰 This command can only be used in servers.",
+        "dmOnly": "📨 This command can only be used in DMs.",
+        "notAllowedGuild": "🚫 This command is not allowed in this server.",
+        "developerOnly": "👑 This command is for developers only.",
+        "ownerOnly": "👑 This command is for server owners only.",
+        "noPermissionBot": "🤖 I need the following permissions: **{permissions}**",
+        "noPermmisionUser": "🔒 You need **{permissions}** to use this command.",
+        "commandError": "💥 An error occurred while executing the command.",
+        "commandDisabledInChannel": "📺 This command is disabled in this channel.",
+        "commandDisabledInRole": "👥 This command is disabled for your role.",
+        "badUsage": "📝 Usage: **{usage}**"
+    },
+    "message": {
+        "gameName": "🎮 Game",
+        "publisher": "🏢 Publisher",
+        "questName": "🏆 Quest",
+        "enrolledAt": "📅 Enrolled At",
+        "expiresAt": "⏰ Expires At",
+        "startsAT": "🚀 Starts At",
+        "progress": "📊 Progress",
+        "rewards": "🎁 Rewards",
+        "tasks": "📋 Tasks",
+        "newQuest": "🎉 New Quest Available!",
+        "noExpires": "Does not expire"
+    },
+    "buttons": {
+        "completed": "✅ Completed",
+        "notsupported": "❌ Not Supported",
+        "stop": "⏹️ Stop",
+        "start": "▶️ Start",
+        "enroll": "➕ Enroll"
+    },
+    "badge": {
+        "selectPlaceholder": "Select a quest...",
+        "logs": "📝 Quest Logs",
+        "pleaseChangeYourPassword": "🔒 Please change your password for security",
+        "ViewQuest": "🔗 View Quest"
+    },
+    "events": {
+        "PLAY_ACTIVITY": "🎮 Play Activity",
+        "PLAY_ON_DESKTOP": "💻 Play on Desktop",
+        "WATCH_VIDEO": "📺 Watch Video",
+        "WATCH_VIDEO_ON_MOBILE": "📱 Watch on Mobile"
+    },
+    "for": "for",
+    "months": "months",
+    "rewardTypes": {
+        "3": "Decoration",
+        "4": "Orb",
+        "5": "Nitro"
+    }
+}
